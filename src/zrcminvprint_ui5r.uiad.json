@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "RCM Invoice Print"
+  },
+  "ui5AppDetails": {
+    "appId": "rcminvprint"
+  },
+  "navigation": {
+    "targetMappingId": "ZRCMINVPRINT_UI5R_TM",
+    "semanticObject": "ZSORCMINVPRT",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZRCMINVPRINT_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "RCM Invoice Print"
+      }
+    }
+  ]
+}

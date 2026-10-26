@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition - RCM Self Invoice Print'
+@ObjectModel.leadingEntity.name: 'ZC_FI_RCM_SI_HEADER'
+define service ZFI_RCM_PRINT_SD {
+  expose ZC_FI_RCM_SI_HEADER as Header;
+  expose ZC_FI_RCM_SI_ITEM   as Item;
+}
